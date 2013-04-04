@@ -25,6 +25,8 @@
 		C0598646170AC72C0068B956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C059861B170AC72B0068B956 /* Foundation.framework */; };
 		C059864E170AC72C0068B956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C059864C170AC72C0068B956 /* InfoPlist.strings */; };
 		C0598651170AC72C0068B956 /* readmoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0598650170AC72C0068B956 /* readmoreTests.m */; };
+		C059865B170AE6120068B956 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C059865A170AE6120068B956 /* QuartzCore.framework */; };
+		C0C41AD2170BFA350015E86C /* RMCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C41AD1170BFA350015E86C /* RMCustomTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		C059864D170AC72C0068B956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C059864F170AC72C0068B956 /* readmoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readmoreTests.h; sourceTree = "<group>"; };
 		C0598650170AC72C0068B956 /* readmoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readmoreTests.m; sourceTree = "<group>"; };
+		C059865A170AE6120068B956 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0C41AD0170BFA350015E86C /* RMCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCustomTextView.h; sourceTree = "<group>"; };
+		C0C41AD1170BFA350015E86C /* RMCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCustomTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C059865B170AE6120068B956 /* QuartzCore.framework in Frameworks */,
 				C059861A170AC72B0068B956 /* UIKit.framework in Frameworks */,
 				C059861C170AC72B0068B956 /* Foundation.framework in Frameworks */,
 				C059861E170AC72B0068B956 /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +117,7 @@
 		C0598618170AC72B0068B956 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C059865A170AE6120068B956 /* QuartzCore.framework */,
 				C0598619170AC72B0068B956 /* UIKit.framework */,
 				C059861B170AC72B0068B956 /* Foundation.framework */,
 				C059861D170AC72B0068B956 /* CoreGraphics.framework */,
@@ -130,6 +137,8 @@
 				C0598638170AC72B0068B956 /* RMMasterViewController.m */,
 				C059863A170AC72B0068B956 /* RMDetailViewController.h */,
 				C059863B170AC72B0068B956 /* RMDetailViewController.m */,
+				C0C41AD0170BFA350015E86C /* RMCustomTextView.h */,
+				C0C41AD1170BFA350015E86C /* RMCustomTextView.m */,
 				C0598620170AC72B0068B956 /* Supporting Files */,
 			);
 			path = readmore;
@@ -284,6 +293,7 @@
 				C059862A170AC72B0068B956 /* RMAppDelegate.m in Sources */,
 				C0598639170AC72B0068B956 /* RMMasterViewController.m in Sources */,
 				C059863C170AC72B0068B956 /* RMDetailViewController.m in Sources */,
+				C0C41AD2170BFA350015E86C /* RMCustomTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +484,7 @@
 				C0598656170AC72C0068B956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0598657170AC72C0068B956 /* Build configuration list for PBXNativeTarget "readmoreTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +493,7 @@
 				C0598659170AC72C0068B956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
